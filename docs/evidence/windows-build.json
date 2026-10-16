@@ -1,0 +1,11 @@
+{
+  "zip": "NIGHTSHIFT-1.0-Windows.zip",
+  "zip_bytes": 77511218,
+  "zip_sha256": "3aa92fbf700e3e5312b4bade903ede495a5851be5b2fedb674f9d8fa06e670b4",
+  "folder_bytes": 180148577,
+  "exe_sha256": "d34d36f3be1a6c49c56525ae86469b92e4f417ddf0b43cf00dd80c385c4b0562",
+  "pck_sha256": "608d612a3cf9048a6dbca3b1864acbd83e514b3bf9ddca9822f6fabafd67a389",
+  "native_mission_won": true,
+  "restart_after_victory_passed": true,
+  "return_to_menu_passed": true
+}

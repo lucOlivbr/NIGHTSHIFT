@@ -1,0 +1,9 @@
+{
+  "checks": 6795,
+  "failures": 0,
+  "max_basis_difference": 0.0,
+  "max_bone_angle_difference_rad": 0.0,
+  "max_bone_position_difference_m": 0.0,
+  "passed": true,
+  "sampled_native_phases": 128
+}

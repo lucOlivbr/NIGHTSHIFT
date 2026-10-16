@@ -1,0 +1,16 @@
+{
+  "all_guards_active": true,
+  "elapsed_seconds": 98.2166666666624,
+  "escape_alarm_started": true,
+  "forced_objectives": 0,
+  "max_suspicion": 1.0,
+  "native_character": true,
+  "newcomer_route": true,
+  "passed": true,
+  "phase": "WON",
+  "player": "(45.99563, -0.149066, 84.54004)",
+  "restart_after_victory_passed": true,
+  "return_to_menu_passed": true,
+  "stage": "SKATE (46.0, -0.15, 89.0)",
+  "teleports": 0
+}

@@ -1,0 +1,8 @@
+{
+  "device": "Intel(R) Iris(R) Xe Graphics",
+  "draw_calls": 80.0,
+  "fps_sample": 60.6822710002798,
+  "note": "Short moving skate sample in real expanded city, all guards active; not minimum FPS.",
+  "primitives": 77514.0,
+  "speed_m_s": 9.00054931640625
+}

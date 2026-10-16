@@ -1,0 +1,9 @@
+{
+  "checks": 29,
+  "crouch_head": 0.865381866693497,
+  "failures": 0,
+  "guard_timing_isolated": true,
+  "jump_apex": 1.00459337234497,
+  "passed": true,
+  "standing_head": 1.51965668797493
+}

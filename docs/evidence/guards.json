@@ -1,0 +1,6 @@
+{
+  "checks": 11,
+  "failures": 0,
+  "note": "Guard scenarios use explicit placements to isolate detection/search/capture; see flow_results for uninterrupted traversal with all guards active.",
+  "passed": true
+}

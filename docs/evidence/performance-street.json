@@ -1,0 +1,11 @@
+{
+  "all_guards_active": true,
+  "device": "Intel(R) Iris(R) Xe Graphics",
+  "draw_calls": 311.0,
+  "fps_sample": 60.5493847509738,
+  "main_project": true,
+  "note": "Short stationary gameplay sample at mission spawn, all guards active. Not minimum FPS or manual playability validation.",
+  "primitives": 256360.0,
+  "renderer": "gl_compatibility",
+  "viewport": "(1280, 720)"
+}
