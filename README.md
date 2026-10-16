@@ -92,10 +92,8 @@ instalar Python ou acessar serviços online para jogar.
 
 ### Windows portátil
 
-Uma build Windows x64 já foi gerada e testada localmente. **Não há release
-pública disponibilizada nesta preparação do repositório.** Quando uma build
-for distribuída, extraia a pasta completa e execute `NIGHTSHIFT.exe`, mantendo
-`NIGHTSHIFT.pck` ao lado. A distribuição é portátil, sem instalador nem
+A versão Windows x64 está disponível na [release pública v0.1.0](https://github.com/lucOlivbr/NIGHTSHIFT/releases/tag/v0.1.0).
+[Baixe NIGHTSHIFT-1.0-Windows.zip](https://github.com/lucOlivbr/NIGHTSHIFT/releases/download/v0.1.0/NIGHTSHIFT-1.0-Windows.zip), extraia o arquivo completo e execute `NIGHTSHIFT.exe`, mantendo `NIGHTSHIFT.pck` ao lado. A distribuição é portátil, sem instalador nem
 assinatura digital.
 
 Para gerar a build pelo editor, instale os templates de exportação da mesma
