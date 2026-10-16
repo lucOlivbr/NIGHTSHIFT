@@ -1,0 +1,29 @@
+{
+  "author": "Quaternius",
+  "license": "CC0-1.0",
+  "sources": [
+    {
+      "file": "hoodie_original.glb",
+      "sha256": "0de1bcd789d409214cf82f66f61daeb53d2f7de6d914b23e7b3660bfb3dee61e"
+    },
+    {
+      "file": "casual_original.glb",
+      "sha256": "fea7e71271203e7073f1a073fa1208de7402df276f87f80e149bf7589b5d46b4"
+    }
+  ],
+  "output": "nightshift_runner.glb",
+  "sha256": "3b7439d961b84f03e0c7720c580035ab09b3c27fa1696813744c504cd5fb7613",
+  "bytes": 892184,
+  "animations": [
+    "Idle",
+    "Run",
+    "Walk"
+  ],
+  "triangles": 6182,
+  "adaptations": [
+    "Casual Character long pants on Hoodie Character's matching modular rig",
+    "NIGHTSHIFT material palette",
+    "Keep only real Idle_Neutral, Walk, Run",
+    "Pack referenced binary views"
+  ]
+}

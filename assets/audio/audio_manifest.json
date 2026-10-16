@@ -1,0 +1,52 @@
+{
+  "generator": "tools/generate_audio.py",
+  "seed": 20261015,
+  "license": "CC0-1.0 (new audio only)",
+  "assets": [
+    {
+      "filename": "nightshift_noir.wav",
+      "duration_seconds": 24.615374149659864,
+      "frames": 542769,
+      "sample_rate": 22050,
+      "channels": 2,
+      "format": "PCM16 WAV",
+      "bytes": 2171120,
+      "rms_dbfs": -20.042,
+      "peak_dbfs": -4.0,
+      "loop_seam_delta": 0.001251,
+      "interior_transition_p99_99": 0.302597,
+      "loop_seam_within_normal_transitions": true,
+      "sha256": "d07248cc431e589dc9e6ba415dfc0bf7723cdb963f9ca6bda0e5fe2727113afd"
+    },
+    {
+      "filename": "rain_loop.wav",
+      "duration_seconds": 16.0,
+      "frames": 352800,
+      "sample_rate": 22050,
+      "channels": 2,
+      "format": "PCM16 WAV",
+      "bytes": 1411244,
+      "rms_dbfs": -20.0,
+      "peak_dbfs": -6.011,
+      "loop_seam_delta": 0.266907,
+      "interior_transition_p99_99": 0.396454,
+      "loop_seam_within_normal_transitions": true,
+      "sha256": "def7b72ca0972d8ce3181b537ceace5b7d65c633472fd06f6b2fc12c0f454f85"
+    },
+    {
+      "filename": "city_night_loop.wav",
+      "duration_seconds": 24.0,
+      "frames": 529200,
+      "sample_rate": 22050,
+      "channels": 2,
+      "format": "PCM16 WAV",
+      "bytes": 2116844,
+      "rms_dbfs": -24.0,
+      "peak_dbfs": -9.115,
+      "loop_seam_delta": 0.01474,
+      "interior_transition_p99_99": 0.05719,
+      "loop_seam_within_normal_transitions": true,
+      "sha256": "8854b4a9ecd573b8d425bb2fa3d6bde072f3a32cae12ffe3e25e6d8a1cfa8b25"
+    }
+  ]
+}

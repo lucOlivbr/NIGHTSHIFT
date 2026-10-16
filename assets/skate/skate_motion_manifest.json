@@ -1,0 +1,20 @@
+{
+  "publisher": "Kenney",
+  "pack": "Mini Skate 2.0",
+  "license": "CC0-1.0",
+  "page": "https://kenney.nl/assets/mini-skate",
+  "download": "https://kenney.nl/media/pages/assets/mini-skate/00b0c2b304-1791798670/kenney_mini-skate.zip",
+  "archive": "docs/kenney_mini-skate_research.zip",
+  "archive_sha256": "0ded0e7f95cdc2c0513a41986fde49977e7d1f4fa8653b375a5c7e909ef9d74a",
+  "source_glb": "Kenney Mini Skate 2.0 / character-skate-boy.glb",
+  "source_sha256": "8279011b450a94850962aa99357e1e835a0f5c320377c6201938c18c7a582d55",
+  "clips": [
+    "skate",
+    "skate-stand"
+  ],
+  "adaptation": "Authored torso/arm curves plus procedural two-bone legs, contacts, banking and transitions on the original Quaternius skeleton.",
+  "outputs": {
+    "skate_motion_kenney.json": "cf7b04ef5b684e7c31a221f618a86e3eac82a6b0d45667ac65946c8b21c506b6",
+    "skate_motion_kenney.gd": "fa6b5613260af2e08e9bd14f9346be6699337a3a1a74c37f22f7e97f25a02dd6"
+  }
+}

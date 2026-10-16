@@ -1,0 +1,19 @@
+Third-party models and skeletal animations: Quaternius.
+Ultimate Modular Men Pack (2022), licensed CC0 1.0 Universal.
+
+Publisher and license:
+https://quaternius.com/packs/ultimatemodularcharacters.html
+https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+Files obtained from Quaternius' public Poly Pizza publications:
+Hoodie Character: https://poly.pizza/m/gKLBoRsyKe
+Casual Character: https://poly.pizza/m/kZ3DmIoGip
+
+NIGHTSHIFT adaptation: Hoodie Character torso/head/shoes + Casual Character
+long pants, customized material colors, only original Idle_Neutral/Walk/Run
+clips retained and unused binary data removed. Geometry, bone weights and
+skeletal motion come from the real source models, not procedural primitives.
+
+See docs/CHARACTER_LICENSE.md and character_manifest.json for provenance,
+exact download locations, hashes and reproducible preparation instructions.
+This notice applies to these third-party assets, not the whole game's code.

@@ -1,0 +1,18 @@
+Skateboard / Mini Skate by Kenney, CC0 1.0 Universal.
+
+Publisher: https://kenney.nl/assets/mini-skate
+Model publication: https://poly.pizza/m/TyiZbm5TNL
+License: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+Downloaded GLB: https://static.poly.pizza/1644e9b6-8917-4a90-b37a-ad32a5070336.glb
+
+skateboard_kenney.glb is the real, unmodified model including its embedded
+colormap texture. Runtime scale is 1.2. See skate_manifest.json.
+
+skate_motion_kenney.json / skate_motion_kenney.gd contain authored animation
+curves extracted from Kenney Mini Skate 2.0, also CC0. The real skate and
+skate-stand clips provide torso/arm movement. They are not claimed as directly
+compatible with the runner: the donor has single-bone legs. Legs, foot contact,
+weight transfer, banking and mount/dismount transitions are procedural on the
+existing Quaternius skeleton. The donor character is not used in the scene.
+See skate_motion_manifest.json, docs/KENNEY_MINI_SKATE_LICENSE.txt and
+docs/SKATE_ANIMATION.md. tools/prepare_skate_motion.py reproduces the extraction.

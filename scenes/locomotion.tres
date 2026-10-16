@@ -1,0 +1,93 @@
+[gd_resource type="AnimationNodeBlendTree" load_steps=18 format=3]
+
+[sub_resource type="AnimationNodeAnimation" id="Idle"]
+animation = &"Idle"
+
+[sub_resource type="AnimationNodeAnimation" id="Walk"]
+animation = &"Walk"
+use_custom_timeline = true
+timeline_length = 1.3333334
+loop_mode = 1
+stretch_time_scale = true
+
+[sub_resource type="AnimationNodeAnimation" id="Run"]
+animation = &"Run"
+use_custom_timeline = true
+timeline_length = 0.7916667
+start_offset = 0.3958333
+loop_mode = 1
+stretch_time_scale = true
+
+[sub_resource type="AnimationNodeBlendSpace1D" id="Gait"]
+blend_point_0/node = SubResource("Walk")
+blend_point_0/pos = 3.0
+blend_point_1/node = SubResource("Run")
+blend_point_1/pos = 6.5
+min_space = 3.0
+max_space = 6.5
+sync_mode = 2
+value_label = "Speed (m/s)"
+
+[sub_resource type="AnimationNodeTimeScale" id="Pace"]
+
+[sub_resource type="AnimationNodeBlend2" id="StartStop"]
+sync = true
+
+[sub_resource type="AnimationNodeAnimation" id="JumpStart"]
+animation = &"JumpStart"
+
+[sub_resource type="AnimationNodeAnimation" id="JumpLoop"]
+animation = &"JumpLoop"
+
+[sub_resource type="AnimationNodeAnimation" id="JumpLand"]
+animation = &"JumpLand"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="ToAir"]
+xfade_time = 0.10
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="ToLand"]
+xfade_time = 0.08
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="EarlyLand"]
+xfade_time = 0.08
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="NextJump"]
+xfade_time = 0.08
+
+[sub_resource type="AnimationNodeStateMachine" id="AirState"]
+states/Takeoff/node = SubResource("JumpStart")
+states/Takeoff/position = Vector2(280, 100)
+states/Air/node = SubResource("JumpLoop")
+states/Air/position = Vector2(500, 100)
+states/Land/node = SubResource("JumpLand")
+states/Land/position = Vector2(720, 100)
+transitions = ["Takeoff", "Air", SubResource("ToAir"), "Air", "Land", SubResource("ToLand"), "Takeoff", "Land", SubResource("EarlyLand"), "Land", "Takeoff", SubResource("NextJump")]
+
+[sub_resource type="AnimationNodeBlend2" id="Air"]
+sync = true
+
+[sub_resource type="AnimationNodeAnimation" id="SkateStance"]
+animation = &"SkateStance"
+
+[sub_resource type="AnimationNodeBlend2" id="Ride"]
+sync = true
+
+[resource]
+nodes/Idle/node = SubResource("Idle")
+nodes/Idle/position = Vector2(-420, -100)
+nodes/Gait/node = SubResource("Gait")
+nodes/Gait/position = Vector2(-620, 120)
+nodes/Pace/node = SubResource("Pace")
+nodes/Pace/position = Vector2(-420, 120)
+nodes/StartStop/node = SubResource("StartStop")
+nodes/StartStop/position = Vector2(-180, 0)
+nodes/SkateStance/node = SubResource("SkateStance")
+nodes/SkateStance/position = Vector2(-180, 200)
+nodes/AirState/node = SubResource("AirState")
+nodes/AirState/position = Vector2(-180, -200)
+nodes/Air/node = SubResource("Air")
+nodes/Air/position = Vector2(40, -100)
+nodes/Ride/node = SubResource("Ride")
+nodes/Ride/position = Vector2(260, 0)
+nodes/output/position = Vector2(480, 0)
+node_connections = [&"Pace", 0, &"Gait", &"StartStop", 0, &"Idle", &"StartStop", 1, &"Pace", &"Air", 0, &"StartStop", &"Air", 1, &"AirState", &"Ride", 0, &"Air", &"Ride", 1, &"SkateStance", &"output", 0, &"Ride"]

@@ -1,0 +1,35 @@
+NIGHTSHIFT — ÚLTIMA ENTREGA
+Versão 1.0 • Cais Norte • 02:17
+
+Um jogo de infiltração e fuga arcade de Lucas.
+Desenvolvimento e integração com assistência do Codex.
+
+PERSONAGENS E ANIMAÇÕES
+Quaternius — Universal Animation Library Standard (rig e clipes nativos).
+Quaternius — Ultimate Modular Men / Hoodie Character (cabeça e cabelo).
+Licença: CC0 1.0 Universal.
+https://quaternius.com
+https://creativecommons.org/publicdomain/zero/1.0/
+Roupa, identificação, ajustes e bolsa do entregador: trabalho deste projeto.
+Uma postura fixa de skate foi preparada offline no Blender; não usa o
+retargeting experimental nem um solucionador ósseo durante o jogo.
+
+CIDADE
+Quaternius — Downtown City MegaKit Standard. CC0 1.0 Universal.
+Cais Norte, sinalização e detalhes adicionais: trabalho deste projeto.
+
+SKATE
+Kenney — Mini Skate. CC0 1.0 Universal.
+https://kenney.nl/assets/mini-skate
+
+ÁUDIO
+Trilha, chuva, cidade e efeitos de ações: síntese original produzida para
+NIGHTSHIFT, disponibilizada em CC0. Sem samples ou músicas comerciais.
+
+FERRAMENTAS
+Godot Engine 4.7.2 — licença MIT. https://godotengine.org/license/
+Blender 5.2 — ferramenta de produção; os assets não incluem o software.
+Fontes da interface: fonte padrão distribuída pelo Godot.
+Consulte GODOT_LICENSE.txt para o aviso MIT do engine.
+
+Obrigado por jogar. A próxima entrega pode esperar.

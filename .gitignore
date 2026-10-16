@@ -1,0 +1,57 @@
+# Godot 4: preserve .import settings and .gd.uid identifiers.
+.godot/
+.import/
+.export/
+.mono/
+export_credentials.cfg
+mono_crash.*.json
+
+# Local distributions, experiments and tools. Do not delete them.
+/dist/
+/proofs/
+/tools/
+
+# Publish only curated documentation and evidence.
+/docs/*
+!/docs/.gdignore
+!/docs/VALIDACAO.md
+!/docs/PUBLICACAO.md
+!/docs/screenshots/
+!/docs/evidence/
+!/docs/final_1_0/
+/docs/final_1_0/*
+!/docs/final_1_0/.gitkeep
+
+# Backups, archives and generated executables.
+*.zip
+*.7z
+*.rar
+*.bak
+*.backup
+*.old
+*.tmp
+*.temp
+*.log
+*.blend1
+*.blend2
+*.exe
+*.pck
+*.pdb
+*.dmp
+*~
+__pycache__/
+*.py[cod]
+
+# Machine preferences and credentials.
+.DS_Store
+Thumbs.db
+desktop.ini
+.vs/
+.idea/
+.vscode/
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
